@@ -37,7 +37,6 @@ class Friend(Person):
         edu = "есть высшее образование" if self.higher_education else "нет высшего образования"
         print(f"Привет, меня зовут {self.name}. Моя профессия {self.occupation}. Моё хобби {self.hobby}. У меня {edu}.")
 
-
 cl1 = Classmate("Иван", "20.02.2000", "студент", True, "1-курс")
 cl1.introduce()
 
